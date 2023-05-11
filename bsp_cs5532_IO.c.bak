@@ -20,7 +20,7 @@
 
 #define Dummy_Byte                0xFF
 
-unsigned char  CS5532_State,c;
+unsigned char  CS5532_State;
 extern  u16  B10msTimer,B1msTimer;
 
 void CS5532_Polling(void)
